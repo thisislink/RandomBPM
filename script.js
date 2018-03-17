@@ -7,3 +7,7 @@ function getBPM() {
 window.onload = function() {
     getBPM();
 }
+
+button.onclick = function() {
+    getBPM();
+}
