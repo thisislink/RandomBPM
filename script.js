@@ -1,4 +1,4 @@
-<script>
+<script type="text/javascript">
     
     var minBPM = 10;
     var maxBPM = 400;
