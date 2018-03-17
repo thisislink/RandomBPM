@@ -5,5 +5,3 @@ function getRandomInt (minBPM, maxBPM) {
 }
 
 document.getElementById("randomBPM").innerHTML = getRandomInt;
-document.getElementById("minBPM").innerHTML = minBPM;
-document.getElementById("maxBPM").innerHTML = maxBPM;
