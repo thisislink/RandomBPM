@@ -1,3 +1,5 @@
+var storeBPM = document.getElementById("randomBPM");
+
 function getBPM() {
     var maxBPM = 400;
     var minBPM = 10;
@@ -8,6 +10,6 @@ window.onload = function() {
     getBPM();
 }
 
-button.onclick = function() {
+storeBPM.onclick = function() {
     getBPM();
 }
