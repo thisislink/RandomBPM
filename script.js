@@ -6,7 +6,7 @@ function getBPM() {
 
 function getTimeSignature() {
     var timeSignatures = [ '4/4', '3/4', '6/8'];   
-    document.getElementById("randomTimeSignatures").innerHTML = Math.floor(Math.random() * (timeSignatures + 1));
+    document.getElementById("randomTimeSignatures").innerHTML = timeSignatures[Math.floor(Math.random() * timeSignatures.length)];
 }
 
 
