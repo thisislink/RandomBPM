@@ -5,5 +5,5 @@ function getBPM() {
 }
 
 window.onload = function() {
-    getBPM() + " BPM";
+    getBPM();
 }
