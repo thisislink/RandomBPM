@@ -1,10 +1,9 @@
 function getBPM() {
     var maxBPM = 200;
     var minBPM = 30;    
-    var randomBPM = document.getElementById("randomBPM").innerHTML = Math.floor(Math.random() * (maxBPM - minBPM + 1)) + minBPM;
-    randomBPM += " BPM";
+    document.getElementById("randomBPM").innerHTML = Math.floor(Math.random() * (maxBPM - minBPM + 1)) + minBPM;
 }
 
 window.onload = function() {
-    getBPM();
+    getBPM() + " BPM";
 }
