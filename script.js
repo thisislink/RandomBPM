@@ -9,6 +9,10 @@ function getTimeSignature() {
     document.getElementById("randomTimeSignature").innerHTML = timeSignatures[Math.floor(Math.random() * timeSignatures.length)];
 }
 
+function getKeySignature() {
+    var keySignatures = ['C', 'C#', 'Db', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'G#', 'Ab', 'A', 'Bb', 'B'];   
+    document.getElementById("randomKeySignature").innerHTML = keySignatures[Math.floor(Math.random() * keySignatures.length)];
+}
 
 window.onload = function() {
     getBPM();
