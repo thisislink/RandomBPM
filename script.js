@@ -17,4 +17,5 @@ function getKeySignature() {
 window.onload = function() {
     getBPM();
     getTimeSignature();
+    getKeySignature();
 }
