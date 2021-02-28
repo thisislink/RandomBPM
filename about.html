@@ -1,13 +1,38 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
   <head>
-  </head>
-  <body>
+    <meta charset="utf-8">
     <title>Random BPM</title>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-    <p>The stuff about this site. Why it was created.</p>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  </head>
+  <body> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+      </ul>
+    </nav>
+    
+    <div class="col-md-12">
+      <div class="card-body">
+        <h5 class="card-title">About Random BPM</h5>
+        <p class="card-text">The developer of this small project is also a musician and was looking for a way to make her songwriting process faster, more challenging, but also more efficient.</p>
+        <p class="card-text">This meant removing the decision making process for:
+          <ul>
+            <li>Choosing the BPM (beats per minute)</li>
+            <li>Choosing the time signature</li>
+            <li>Choosing the key signature</li>
+          </ul>
+        </p>
+        <p class="card-text">GarageBand was her main DAW (digital audio workstation) on iOS, which has limitions on the min and max BPM and time signature options.</p>
+        <p class="card-text">So, keeping the songwriting requirements and DAW limitations in mind, RandomBPM was born.</p>
+      </div>
+    </div>
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container">
+        <p class="text-muted text-center" id="randomBPM">Developed by: <a href="https://linkedin.com/in/daphnelink" target="_blank">Daphne Link</a> | Built With: <a href="https://whatwg.org/" target="_blank">HTML</a>, <a href="https://getbootstrap.com/" target="_blank">CSS (Bootstrap)</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a> | <a href="https://github.com/thisislink/RandomBPM" target="_blank">View Code</a></p>
+      </div>
+    </footer>
   </body>
 </html>

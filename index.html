@@ -1,19 +1,35 @@
-<!DOCTYPE>
-<html>
-  <head>     
-  </head>
-  <body>
-    <title>Random BPM</title>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-    <p>Generate Random BPM Between 40 BPM and 200 BPM</p>
-    <p id="randomBPM"></p>
-    <p>Generate Random Time Signature (4/4, 3/4, or 6/8)</p>
-    <p id="randomTimeSignature"></p>
-    <p>Generate Random Key Signature</p>
-    <p id="randomKeySignature"></p>   
-    <script src="script.js"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Random BPM</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+      <body>      
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="card border-0">
+          <div class="card-body">
+            <h5 class="card-title">Generate Random BPM Between 40 BPM and 200 BPM</h5>
+            <p class="card-text" id="randomBPM"></p>
+            <h5 class="card-title">Generate Random Time Signature (4/4, 3/4, or 6/8)</h5>
+            <p class="card-text" id="randomTimeSignature"></p>
+            <h5 class="card-title">Generate Random Key Signature</h5>
+            <p class="card-text" id="randomKeySignature"></p>
+            <button id="generateButton" onclick=runAll();>Generate</button>
+          </div>
+        </div>
+
+        <footer class="footer mt-auto py-3 bg-light">
+          <div class="container">
+            <p class="text-muted text-center" id="randomBPM">Developed by: <a href="https://linkedin.com/in/daphnelink" target="_blank">Daphne Link</a> | Built With: <a href="https://whatwg.org/" target="_blank">HTML</a>, <a href="https://getbootstrap.com/" target="_blank">CSS (Bootstrap)</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a> | <a href="https://github.com/thisislink/RandomBPM" target="_blank">View Code</a></p>
+          </div>
+        </footer>
+        <script src="script.js"></script>
+      </body>
+  </html>
